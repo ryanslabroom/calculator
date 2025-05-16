@@ -118,5 +118,12 @@ button:hover {
 }
 
 
-
-
+@media only screen and (max-width: 600px) {
+    .wholeCalc {
+      gap: 1rem;
+    }
+    .buttons {
+        grid-template-columns: 4rem 4rem 4rem 4rem;
+        grid-template-rows: 2.5rem 2.5rem 2.5rem 2.5rem;
+    }
+  }
